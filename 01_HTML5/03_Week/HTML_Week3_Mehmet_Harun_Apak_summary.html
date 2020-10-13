@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML_Week3_Mehmet_Harun_Apak_summary</title>
+  </head>
+  <body>
+    <!-- body bolumu tarayicida goruntulenir -->
+    <!-- main layoutu icine alir -->
+      <main> 
+        <article>
+         <p class="text" id="Bas metin">
+            Bu haftaki derste daha fazla <mark>HTML Attribüt</mark>lerini tanidik
+             ve biraz daha detaylarina baktik ve <mark>HTML Entities</mark>'lerile tanistik. 
+             Ayrica <b><ins>form</ins></b> ve kullanicilarin bilgi girebilmesi icin <b><ins>input</ins></b> elemanlarini tanidik. 
+            Asagida "Hafta 04 Konseptler ve Linkler" bölümünde bu hafta islediklerimizi özet 
+            olarak bulabilirsiniz.
+         </p><hr>
+        </article>
+        <!--CSS kodu kullanilarak yapildi -->
+        <fieldset class="text">
+          <legend><b><mark>HATIRLATMA</mark></b></legend>
+          <details class="text" id="Metin 1">
+            <summary style="color: red;"><strong>OKU BENI</strong> </summary>
+            <p>
+              <strong>Teorie derslerinde gördümüz konularin disinda kendiniz de
+               ayrica arastirma yapip tag ve atribute`leri ögreniniz.</strong>
+            </p>
+          </details id="Metin 2">
+          <p>
+            Ölcü olarak, alttaki dagilimi referans alabilirsiniz:
+            <ul>
+              <li>25% Teori</li>
+              <li>20% Pratik</li>
+              <li>25% Ödev</li>
+              <li>30% Kendi basiniza arastirma</li>
+            </ul>
+          </p>
+        </fieldset>
+      <section>
+        <fieldset class="text" id="Metin 3">
+          <legend><b>Hafta 04 Konseptler ve Linkler</b></legend>
+          <details id="Metin 4">
+            <summary>Göster...</summary>
+            <p>
+              <ul>
+              <li><strong>HTML Tag`lari</strong></li>
+                <ul>
+                  <li>form / input / select/ textarea/ label / button / fieldset / legend </li>
+                  <li>audio progress, meter, textarea, video, map, select, option</li>
+                  <li>meta</li>
+                    <ul>
+                      <li>meta tag kullanim örnekleri: <a href="https://gist.github.com/kevinSuttle/1997924" target="_blank"> https://gist.github.com/kevinSuttle/1997924</a></li>
+                    </ul>
+                  <li> embed, iframe</li>
+                  <li> Daha Fazlasi:<a href="http://html.com/tags" target="_blank">http://html.com/tags</a></li>
+                </ul>
+              <li><strong>HTML Attribütleri</strong></li>
+                <ul>
+                  <li>Global</li>
+                    <ul>
+                      <li>id, class, title, style, data-", hidden, lang, tabindex, contenteditable</li>
+                      <li>Event Handlers</li>
+                        <ul>
+                          <li>onclick, onfocus, onchange, onmouseout, onmouseover, ondblclick</li>
+                        </ul>
+                      <li>Daha fazlasi <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference" target="_blank">Dev Mozilla Reference </a></li>
+                    </ul>
+                    <li>Tag spesifik</li>
+                      <ul>
+                        <li>src, alt, href, target, type, autofocus, autocomplete, placeholder</li>
+                        <li>pattern, placeholdermin, max, size, minlength, maxlength, name, readonly, required<br>
+                           spellcheck, value,...</li>
+                        <li>loop,autoplay,muted,played,buffered</li>
+                        <li>Teori slaytlarina ve HTML.com/attributes 'a kullanim kontext'leri ve daha fazlasi icin<br>
+                          bakiniz</li>
+                      </ul>
+                      <li>Daha Fazlasi:<a href="http://html.com/attributes" target="_blank"> html.com/attributes </a></li>
+                </ul>
+              <li><strong>HTML Entity'leri</strong></li>
+                <ul>
+                  <li>&#128169;,&#128521;,&#128584;,&#x02283;&#x02282;,&#128526;</li>
+                  <li>Karakter Referans Sayfasi:<a href="https://dev.w3.org/html5/html-author/charref" target="_blank">HTML Entities Interactive Reference</a></li>
+                </ul>
+              </ul>
+            </p>
+          </details>
+          </fieldset><hr><br>
+      </section>
+      <section>
+      <p align="center" colspan="8">
+        Isvicre`de Bazi Kantonlar ile ilgili Bilgiler
+      </p>
+      <table width="100%" class="tablo" id="tablo1">
+          <thead>
+              <th style="background-color: #0e9693d7"><b>Isim</b></th>
+              <th style="background-color: #0e9693d7"><b>Kisaltma</b></th>
+              <th style="background-color: #0e9693d7"><b>En Buyuk Sehri</b></th>
+              <th style="background-color: #0e9693d7"><b>Nüfusu</b></th>
+              <th style="background-color: #0e9693d7"><b>Konusulan Dil</b></th>
+              <th style="background-color: #0e9693d7"><b>Bayragi</b></th>
+              <th style="background-color: #0e9693d7"><b>Sayfasi</b></th>
+          </thead>
+          <!--Kanton Bayragi Fotograflari Wikipediadan alinmistir -->
+          <tbody>
+          <tr>
+              <td align="center">Zürih</td>
+              <td align="center">ZH</td>
+              <td align="center">Zürih</td>
+              <td align="center">1'504'346</td>
+              <td align="center">Almanca</td>
+              <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Wappen_Z%C3%BCrich_matt.svg/38px-Wappen_Z%C3%BCrich_matt.svg.png"
+                                 alt="Zürih Kantonu Bayragi" title="Zürih Kantonu Bayragi"width="18"></td>
+              <td align="center"> <a style="color:#008DFF;" href="https://www.zurich.ch/">zh.ch</a></td>
+          </tr>
+          <tr>
+              <td align="center">Cenevre</td>
+              <td align="center">GE</td>
+              <td align="center">Cenevre</td>
+              <td align="center">495'249</td>
+              <td align="center">Fransizca</td>
+              <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Wappen_Genf_matt.svg/38px-Wappen_Genf_matt.svg.png"
+                                alt="Cenevre Kantonu Bayragi" title="Cenevre Kantonu Bayragi"width="18"></td>
+              <td align="center"> <a style="color:#008DFF;" href="https://www.ge.ch">ge.ch</a></td>
+          </tr>
+          </tr>
+          <tr>
+              <td align="center">Bern</td>
+              <td align="center">BE</td>
+              <td align="center">Bern</td>
+              <td align="center">1'031'126</td>
+              <td align="center">Almanca,<br>Fransizca</td>
+              <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Wappen_Bern_matt.svg/38px-Wappen_Bern_matt.svg.png"
+                                alt="Bern Kantonu Bayragi" title="Bern Kantonu Bayragi"width="18"></td>
+              <td align="center" > <a style="color:#008DFF;" href="https://www.be.ch">be.ch</a></td>
+          </tr>
+          <tr>
+              <td colspan="7" style="background-color:rgb(158, 158, 147)">...</td>
+          </tr>
+          <tr class="tolam Nüfus">
+              <td align="center" colspan="3" style="background-color:#FFDE00">Toplam Nüfus</td>
+              <td align="center">8'039'060</td>
+          </tbody>
+      </table>
+    </section>
+      </fieldset>
+      </main>
+  </body>
+</html>

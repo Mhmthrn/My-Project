@@ -1,0 +1,18 @@
+Merhaba arkadaslar,
+
+Su ana kadar gördügümüz ve sizlerin kendi calismalarinizda ögrendiginiz HTML Tag'lerini kullanarak asagida resmi verilen web sayfasini birebir olarak gerceklestiriniz.
+
+Kriterler:
+- Minimum 5 "id" attribute kullaniniz. (-10)
+- Minimum 5 "class" attriubte'u kullaniniz. (-10)
+- Temiz ve düzenli kod yazimi (hizalama ver bosluklar). (-15)
+- Kod icinde yorumlar eklenmesi (<!--yorum-->). (-5)
+- HTML Entity kullanimlari (&isim; gibi). (-5)
+- Degisik meta taglarin kullanilmasi. (-5)
+- Hiçbir şekilde CSS ve JavaScript kullanılmayacak. Sadece inline css kullanilabilir (style attribute'ü) (-5)
+- Layout icin semantik tag'larin kullanilmasi (main, section, article, vs...) (-10)
+
+Teslim:
+HTML dosyası, isimlendirme: HTML_Week3_ISIM_SOYISIM_summary.html
+
+Happy coding!
